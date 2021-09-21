@@ -2,10 +2,10 @@
 // alert("hello from coding temple")
 
 // ##basic variables
-// var str1 = "Coding Temple";
-// var num1 = 5;
-// var str2 = str1 + num1;
-// alert(str2)
+var str1 = "Coding Temple";
+var num1 = 5;
+var str2 = str1 + num1;
+alert(str2)
 
 //##creating and calling a function
 // function findTripTime (destinationA, destinationB){
