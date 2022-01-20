@@ -22,3 +22,4 @@ newFunction('inner')
 const names = ['Eric', 'George', 'Milton', 'James'];
 names.sort();
 console.log(names);
+//^quick sort example
