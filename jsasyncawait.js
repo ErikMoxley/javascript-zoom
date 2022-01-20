@@ -16,7 +16,8 @@ function processRequest(response) {
 };
 async function Run() {
     try {
-        const response = await makeRequest('facebook')
+        const response = await makeRequest('Google') 
+        //can change this string to something else and it'll throw error with message 'We can only talk to Google'
         console.log('Response received')
         const processedResponse = await processRequest(response)
         console.log(processedResponse)
