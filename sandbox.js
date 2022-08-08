@@ -10,8 +10,10 @@ function getWage (baseSalary, overtime, rate) {
     return baseSalary + (overtime * rate);
 }
 // ------------------------------------------------------------
+// OOP is based on the concept of objects. Takes real world objects and representing in code. 
+// Taking PC monitor: Add attributes/properties(color, size) and functions/methods(turn off/on).
 
-// Encapsulation Example (less parameters)
+// Encapsulation Example (less parameters) to reduce complexity + increase reusability
 // f() = method
 // x = property
 let employee = {
@@ -24,16 +26,13 @@ let employee = {
 };
 employee.getWage();
 
-// Abstraction
+// Abstraction: Simpler interface, reduce the Impact of Change.
+// only exposes necessary details of the user. Hides underlying implementation
+// such as calling for a function that is imported from another file so you only see the function get called, but not what's behind it.
 
+// Inheriteance: eliminates redundant code
+// allows you to create different objects and reuse the same methods unless it is overridden. 
+// (if program has a character speak with talk(), if theres another character you can extend and reuse talk() unless you change the function specifically for new character.)
 
-
-// Inheriteance
-
-
-
-// Polymorphism
-
-
-
+// Polymorphism: Many forms. Refactors ugly switch/case statements. Can call a different method while the program is running.
 
